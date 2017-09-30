@@ -14,7 +14,7 @@ const PageLayout = ({ title, children }) =>
           }
         }
         html {
-          font-family: Arial, sans-serif;
+          font-family: -apple-system, BlinkMacSystemFont, sans-serif;
           font-size: ${vars.fontSize};
           line-height: ${vars.lineHeight};
           color: ${vars.textColor};
@@ -40,12 +40,19 @@ const PageLayout = ({ title, children }) =>
           font-size: ${vars.h1FontSize};
           line-height: ${vars.h1LineHeight};
           font-weight: normal;
+          margin: auto;
+        }
+        p{
+          font-size: 36px;
+          line-height: 1.2em;
+          margin: auto;
         }
         h2,
         .h2  {
           font-size: ${vars.h2FontSize};
           line-height: ${vars.h2LineHeight};
           font-weight: normal;
+          margin: auto;
         }
         h3,
         .h3  {

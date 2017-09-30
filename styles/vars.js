@@ -4,11 +4,11 @@ export const lineHeight = '20px';
 export const a3FontSize = '18px';
 export const a3LineHeight = '22px';
 
-export const h1FontSize = '40px';
-export const h1LineHeight = '46px';
+export const h1FontSize = '80px';
+export const h1LineHeight = '86px';
 
-export const h2FontSize = '36px';
-export const h2LineHeight = '40px';
+export const h2FontSize = '60px';
+export const h2LineHeight = '62px';
 
 export const h3FontSize = '28px';
 export const h3LineHeight = '32px';
@@ -28,7 +28,7 @@ export const marginXXLarge = '30px';
 
 export const linkColor = '#0084CE';
 
-export const textColor = '#000000';
+export const textColor = '#FFFFFF';
 export const textSecondaryColor = '#4D4D4D';
 
 export const navBarActiveLinkUnderline = '#832AB7';
