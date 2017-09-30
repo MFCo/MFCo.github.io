@@ -1,0 +1,25 @@
+{
+  "name": "mfco.github.io",
+  "version": "1.0.0",
+  "description": "Personal page and playground",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFCo/MFCo.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MFCo/MFCo.github.io/issues"
+  },
+  "homepage": "https://github.com/MFCo/MFCo.github.io#readme",
+  "dependencies": {
+    "next": "^4.0.0-beta.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
