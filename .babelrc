@@ -1,0 +1,79 @@
+{
+  "plugins": [
+    "syntax-object-rest-spread",
+    "transform-object-rest-spread",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "."
+        ],
+        "alias": {
+          "styles": "./styles",
+          "components": "./components",
+          "utils": "./utils"
+        },
+        "cwd": "babelrc"
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "chrome": 59
+            },
+            "debug": true
+          }
+        ],
+        "./babel-preset"
+      ]
+    },
+    "stage": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "browsers": [
+                "last 2 versions"
+              ]
+            },
+            "debug": true
+          }
+        ],
+        "./babel-preset"
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "browsers": [
+                "last 2 versions"
+              ]
+            },
+            "debug": true
+          }
+        ],
+        "./babel-preset"
+      ]
+    },
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": "commonjs"
+          }
+        ],
+        "./babel-preset"
+      ]
+    }
+  }
+}

@@ -19,7 +19,19 @@
   "homepage": "https://github.com/MFCo/MFCo.github.io#readme",
   "dependencies": {
     "next": "^4.0.0-beta.2",
+    "normalize.css": "^7.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.6",
+    "raw-loader": "^0.5.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "styled-jsx-postcss": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "cssnano": "^3.10.0",
+    "eslint": "^4.8.0"
   }
 }
