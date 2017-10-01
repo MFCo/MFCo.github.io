@@ -1,13 +1,15 @@
 import * as vars from 'styles/vars';
 import Head from './Head';
+import NavBar from './NavBar'
 
 const PageLayout = ({ title, children }) =>
   <div>
     <Head title={title} />
+    <NavBar />
     <div>
       {children}
     </div>
-    <style jsx global>{`
+    <style>{`
         @at-root {
           @-ms-viewport {
             width: device-width;
