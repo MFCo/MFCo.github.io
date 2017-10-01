@@ -12,7 +12,7 @@ const NavBar = ({ router, href }) => {
     <header className="navbar">
       <nav>
         <div className="navbar__logo">
-          <a className="navbar__logo__link" href="#home" title="Startup Boost - Home">
+          <a className="navbar__logo__link" href="#home" title="Mariano Cocirio - Home">
             <Logo />
             <h3 className="name">ariano Fernández Cocirio</h3>
           </a>

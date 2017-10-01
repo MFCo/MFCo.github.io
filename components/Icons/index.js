@@ -274,5 +274,5 @@ export const LinkedIn = () => {
 export const Logo = () =>
   <svg height="100%" viewBox="0 0 400 400">
     <polygon fill="#FFFFFF" points="0,400.409 199.999,54 400,400.409 "/>
-    <text transform="matrix(1 0 0 1 109.8799 375.4092)"  font-family="'Tahoma'" font-size="233.9234">M</text>
+    <text transform="matrix(1 0 0 1 109.8799 400)"  font-family="'Tahoma'" font-size="233.9234">M</text>
   </svg>;
