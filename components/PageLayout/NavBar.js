@@ -1,5 +1,5 @@
 import { paddingBase, paddingLarge, navBarActiveLinkUnderline, maxSiteWidth, paddingForPage } from 'styles/vars';
-import { LinkedIn, Github } from 'components/Icons';
+import { Logo, LinkedIn, Github } from 'components/Icons';
 
 
 const links = [
@@ -13,7 +13,8 @@ const NavBar = ({ router, href }) => {
       <nav>
         <div className="navbar__logo">
           <a className="navbar__logo__link" href="#home" title="Startup Boost - Home">
-            MFCo
+            <Logo />
+            <h3 className="name">ariano Fernández Cocirio</h3>
           </a>
         </div>
         <ul className="navbar__links">
@@ -48,11 +49,19 @@ const NavBar = ({ router, href }) => {
         </ul>
       </nav>
       <style jsx>{`
+        .name{
+          display: inline;
+          padding-left: 5px;
+          font-family: Tahoma;
+          padding-botton: 2px;
+        }
         .navbar {
           box-sizing: content-box;
           height: 50px;
-          padding: ${paddingLarge} 0 ${paddingForPage};
+          padding: ${paddingLarge} 0 ${paddingLarge};
           background-color: black;
+          position: sticky;
+          top: 0;
         }
         a {
           color: white;
@@ -65,7 +74,7 @@ const NavBar = ({ router, href }) => {
           position: relative;
           max-width: ${maxSiteWidth};
           margin: 0 auto;
-          padding: 0 ${paddingForPage};
+          padding: 0;
         }
         .navbar__logo {
           float: left;
