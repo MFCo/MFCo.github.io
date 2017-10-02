@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal page and playground",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start"
   },
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/MFCo/MFCo.github.io#readme",
   "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.1",
     "next": "^4.0.0-beta.2",
     "normalize.css": "^7.0.0",
     "postcss-cssnext": "^3.0.2",
